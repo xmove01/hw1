@@ -90,3 +90,10 @@ input[type="email"] {
 .buttons .btn:first-child {
   margin-left: 0;
 }
+
+.btn:active {
+  box-shadow: inset 1px 1px 13px -5px rgb(0 0 0 / 87%);
+  background: #f2994a;
+  color: #fff;
+  border: 1px solid #f2994a;
+}
