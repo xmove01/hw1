@@ -1,0 +1,90 @@
+html {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1 span {
+  color: red;
+  background: black;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+.list-item {
+  width: 300px;
+  padding: 3px 5px;
+  background: cadetblue;
+  border: 1px solid black;
+}
+
+.list-item:nth-child(7) {
+  text-transform: uppercase;
+  background-color: brown;
+  border-color: chartreuse;
+  font-weight: 700;
+}
+
+.list-item__link {
+  text-decoration: none;
+  color: black;
+}
+
+.list-item[data-descr]:hover::after {
+  content: attr(data-descr);
+  position: absolute;
+  width: 160px;
+  margin-top: 24px;
+  left: 100px;
+  font-size: 12px;
+  /* font-weight: 400; */
+  padding: 5px;
+  border: 1px solid rgba(56, 56, 56, 0.945);
+  background-color: rgb(0, 183, 255);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.list-item__link::selection {
+  color: yellow;
+  background: red;
+}
+
+li p:nth-child(4) {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+li p:nth-child(4)::first-letter {
+  color: red;
+  font-weight: 700;
+}
+
+li p:nth-child(4):hover {
+  color: darkcyan;
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.account-form img {
+  height: 16px;
+}
+
+#account-form__checkbox {
+  height: 30px;
+  width: 30px;
+  -moz-box-shadow: 0px 0px 16px 0px rgba(34, 60, 80, 0.52);
+  box-shadow: 0px 0px 16px 0px rgba(34, 60, 80, 0.52);
+}
+
+.account-form button {
+  display: flex;
+  justify-content: center;
+}
