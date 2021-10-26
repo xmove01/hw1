@@ -16,6 +16,15 @@ img {
   width: 500px;
 }
 
+h1 {
+  position: sticky;
+  top: 5px;
+  margin: 0 auto;
+  background-color: springgreen;
+  border-radius: 5px;
+  padding: 5px 3px;
+}
+
 footer {
   position: sticky;
   background: linear-gradient(
