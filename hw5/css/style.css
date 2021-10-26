@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: red;
+  background: linear-gradient(45deg, #30cfd0, #330867);
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}
+
+footer {
+  position: sticky;
+  background: linear-gradient(
+    135deg,
+    rgb(0, 36, 122) 23%,
+    rgb(157, 39, 255) 64%,
+    rgb(255, 58, 58) 100%
+  );
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
