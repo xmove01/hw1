@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #ff0000;
+}
+
+.flex-container {
+  height: 70vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: darkgreen;
+}
+
+.flex-item {
+  border: 2px solid #ff0000;
+  background-color: #0000ff;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  background: chocolate url(./../img/spongebob_PNG32.png) center center
+    no-repeat;
+  background-size: contain;
+}
