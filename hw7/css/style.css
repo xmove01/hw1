@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.review-form {
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: darkslateblue;
+  border-radius: 10px;
+}
+
+.review-form__title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.review-form__name {
+  color: #fff;
+}
+
+.review-form__text {
+  color: #fff;
+  font-size: 16px;
+}
+
+.review-form__textarea {
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.review-form__text-input {
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: none;
+  height: 30px;
+  padding: 0 5px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.review-form__subcribe-box {
+  display: flex;
+  align-items: center;
+}
+
+.review-form__text {
+  font-size: 18px;
+}
+
+.review-form__checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid #f2994a;
+  /* background-color: ; */
+}
+
+.review-form__checkbox:checked {
+  background: #f2994a;
+}
+
+.review-form__submit-button {
+  margin-top: 10px;
+  background-color: #f2994a;
+  color: #fff;
+  border: 1px solid #f2994a;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.review-form__submit-button:active {
+  box-shadow: inset 1px 1px 13px -5px rgb(0 0 0 / 87%);
+}
+
+.elements {
+  display: flex;
+}
+.elements__column {
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  align-items: center;
+}
+
+.element {
+  width: 285px;
+  margin: 5px;
+  padding: 20px;
+  border: 6px solid red;
+  border-radius: 10px;
+  background: #f2994a url(./../img/spongebob_PNG32.png) center center no-repeat;
+  background-size: 80%;
+}
+
+.elements__column:first-child .element {
+  height: 60%;
+}
+
+.elements__column:nth-child(2) .element:first-child {
+  height: 30%;
+}
+.elements__column:nth-child(2) .element:last-child {
+  height: 70%;
+}
+.elements__column:nth-child(3) .element:first-child {
+  height: 70%;
+}
+.elements__column:nth-child(3) .element:last-child {
+  height: 30%;
+}
+.elements__column:last-child .element:first-child {
+  height: 60%;
+}
+.elements__column:last-child .element:last-child {
+  height: 40%;
+}
