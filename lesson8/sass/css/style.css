@@ -1,0 +1,21 @@
+.header {
+  background-color: brown;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.grid .grid__item {
+  border: 2px solid black;
+  font: italic 700 22px serif;
+}
+/*# sourceMappingURL=style.css.map */

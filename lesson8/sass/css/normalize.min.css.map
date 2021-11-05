@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX",
+    "sources": [
+        "../scss/normalize.scss",
+        "../scss/normalize/_normalize-mixin.scss"
+    ],
+    "names": [],
+    "file": "normalize.min.css"
+}

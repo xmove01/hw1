@@ -1,0 +1,31 @@
+@import "./header";
+@import "./banner";
+@import "./blog";
+@import "./contacts";
+@import "./footer";
+@import "./sidebar";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin center-element($vertical: center, $horizont: center) {
+  display: flex;
+  align-items: $vertical;
+  justify-content: $horizont;
+}
+
+@mixin font($style: normal, $weight: 400, $size: 16px, $family: sans-serif) {
+  font: $style $weight $size $family;
+}
+
+.grid {
+  display: grid;
+  @include center-element(flex-start, space-between);
+
+  .grid__item {
+    border: 2px solid black;
+    @include font(italic, 700, 22px, serif);
+  }
+}

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* div { 
+  border: 3px solid red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50% minmax(20px, 50px);
+} */
+
+/* .grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "container container container navigation"
+    "footer footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: container;
+}
+
+nav {
+  grid-area: navigation;
+}
+
+footer {
+  grid-area: footer;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header sidebar"
+    "banner banner banner sidebar"
+    "blog blog blog sidebar"
+    "contacts contacts contacts sidebar"
+    "footer footer footer sidebar";
+  grid-template-rows: repeat(5, 20vh);
+}
+
+.header {
+  grid-area: header;
+  border: 2px solid red;
+}
+
+.banner {
+  grid-area: banner;
+  border: 2px solid green;
+}
+
+.blog {
+  grid-area: blog;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: 1fr; */
+  border: 2px solid yellow;
+}
+
+.blog__item {
+  /* grid-area: item; */
+  border: 2px solid yellowgreen;
+}
+
+.contacts {
+  grid-area: contacts;
+  border: 2px solid orange;
+}
+
+.footer {
+  grid-area: footer;
+  border: 2px solid black;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  border: 2px solid crimson;
+}
