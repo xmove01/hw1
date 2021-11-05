@@ -4,6 +4,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .review-form {
   margin: 5px;
   padding: 20px;
@@ -88,39 +95,45 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 98vh;
+  height: 1030px;
+  width: 1410px;
   align-items: center;
   align-content: center;
+  background-color: antiquewhite;
+  border: 4px solid fuchsia;
 }
 
 .element {
-  width: 285px;
+  width: 330px;
   margin: 5px;
-  padding: 20px;
+  /* padding: 20px; */
   border: 6px solid red;
   border-radius: 10px;
   background: #f2994a url(./../img/spongebob_PNG32.png) center center no-repeat;
   background-size: 80%;
 }
 
+.element:first-child {
+  height: 37%;
+}
 .element:nth-child(2) {
-  height: 37vh;
+  height: 58%;
 }
 .element:nth-child(3) {
-  height: 30vh;
+  height: 30%;
 }
 .element:nth-child(4) {
-  height: 54vh;
+  height: 65%;
 }
 .element:nth-child(5) {
-  height: 59vh;
+  height: 75%;
 }
 .element:nth-child(6) {
-  height: 25vh;
+  height: 20%;
 }
 .element:nth-child(7) {
-  height: 40vh;
+  height: 60%;
 }
 .element:last-child {
-  height: 44vh;
+  height: 35%;
 }
