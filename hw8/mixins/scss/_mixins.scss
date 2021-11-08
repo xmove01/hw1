@@ -1,0 +1,14 @@
+@mixin border($_thickness: 4px, $_style: solid, $_color: #dc143c, $_bRadius: 5px) {
+  border: $_thickness $_style $_color;
+  border-radius: $_bRadius;
+}
+
+@mixin colorize($_bgcolor: purple, $_fontColor: #fff, $_bRadius: 5px) {
+  background-color: $_bgcolor;
+  color: $_fontColor;
+  border-radius: $_bRadius;
+}
+
+// @mixin grid-constructor {
+
+// }
