@@ -1,0 +1,15 @@
+.blog {
+  grid-area: blog;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.blog__item {
+  margin: 5px;
+  border-radius: 10px;
+  border: 3px solid orange;
+}
+
+.blog__item:last-child {
+  border: 3px solid palevioletred;
+}

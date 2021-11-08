@@ -1,0 +1,28 @@
+@import "./normalize";
+
+section {
+  border: 5px solid crimson;
+  border-radius: 10px;
+  font-family: serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+}
+
+.grid-container {
+  height: 70vh;
+  width: 1000px;
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "sidebar blog blog blog blog"
+    "sidebar contacts contacts about about"
+    "sidebar footer footer footer footer";
+}
+
+@import "./header";
+@import "./sidebar";
+@import "./blog";
+@import "./contacts";
+@import "./about";
+@import "./footer";

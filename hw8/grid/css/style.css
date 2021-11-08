@@ -16,11 +16,7 @@ section {
   height: 70vh;
   width: 1000px;
   display: grid;
-  grid-template-areas:
-    "header header header header header"
-    "sidebar blog blog blog blog"
-    "sidebar contacts contacts about about"
-    "sidebar footer footer footer footer";
+  grid-template-areas: "header header header header header" "sidebar blog blog blog blog" "sidebar contacts contacts about about" "sidebar footer footer footer footer";
 }
 
 .header {
@@ -58,3 +54,4 @@ section {
 .footer {
   grid-area: footer;
 }
+/*# sourceMappingURL=style.css.map */
