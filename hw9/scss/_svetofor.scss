@@ -1,0 +1,85 @@
+@keyframes Sred {
+  0% {
+    background-color: red;
+  }
+
+  30% {
+    background-color: red;
+  }
+
+  60% {
+    background-color: #c4c4c4;
+  }
+
+  100% {
+    background-color: #c4c4c4;
+  }
+}
+@keyframes Syellow {
+  0% {
+    background-color: #c4c4c4;
+  }
+  20% {
+    background-color: #c4c4c4;
+  }
+
+  30% {
+    background-color: yellow;
+  }
+
+  60% {
+    background-color: #c4c4c4;
+  }
+
+  100% {
+    background-color: yellow;
+  }
+}
+@keyframes Sgreen {
+  0% {
+    background-color: #c4c4c4;
+  }
+
+  30% {
+    background-color: #c4c4c4;
+  }
+
+  60% {
+    background-color: green;
+  }
+
+  100% {
+    background-color: #c4c4c4;
+  }
+}
+
+.svetofor {
+  width: 150px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px 10px;
+  background: #000;
+  border-radius: 5px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  // animation: svetofor 5s linear 2s infinite;
+  &:first-child {
+    background-color: red;
+    animation: Sred 6s step-start 0s infinite;
+  }
+  &:nth-child(2) {
+    background-color: yellow;
+    animation: Syellow 6s step-start 0s infinite;
+  }
+  &:last-child {
+    background-color: green;
+    animation: Sgreen 6s step-start 0s infinite;
+  }
+}
